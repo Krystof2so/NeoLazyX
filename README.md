@@ -26,8 +26,12 @@ git clone https://github.com/Krystof2so/NeoLazyX.git ~/.config/nvim
 
 Quelques paquets pour venir compléter cette installation :
 ```bash
-sudo apti install ripgrep lazygit 
+sudo apti install ripgrep lazygit nodejs npm 
 cargo install tree-sitter-cli
 cargo install viu
+sudo npm install -g @mermaid-js/mermaid-cli
 ```
 Ensuite, lancer la commande `:LazyHealth` pour effectuer un état de santé de l'environnement **Neovim** (environnement compatible avec la configuration, installation et configuration des *plugins*, présence des dépendances critiques, vérification des éventuels conflits et erreurs, etc.). `:LazyHealth` est spécifique à **Lazy.nvim**, et complète `:checkhealth` avec des infos centrées sur les *plugins* gérés par **Lazy**.
+
+## Commandes spécifiques :
+- `:ShowImage` : Affiche une image dans un terminal externe
