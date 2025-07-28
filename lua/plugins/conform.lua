@@ -11,6 +11,11 @@ return {
           vim.fn.expand "~/.config/nvim/stylua.toml",
         },
       },
+      fish_indent = {
+        condition = function()
+          return false -- désactive complètement fish_indent
+        end,
+      },
     },
   },
 }
