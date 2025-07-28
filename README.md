@@ -29,6 +29,7 @@ Quelques paquets pour venir compléter cette installation :
 sudo apt install ripgrep lazygit nodejs npm xclip python3-pynvim
 cargo install tree-sitter-cli
 cargo install viu
+cargo install ast-grep
 sudo npm install -g @mermaid-js/mermaid-cli
 sudo npm install -g neovim
 ```
