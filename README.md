@@ -35,5 +35,26 @@ sudo npm install -g neovim
 ```
 Ensuite, lancer la commande `:LazyHealth` pour effectuer un état de santé de l'environnement **Neovim** (environnement compatible avec la configuration, installation et configuration des *plugins*, présence des dépendances critiques, vérification des éventuels conflits et erreurs, etc.). `:LazyHealth` est spécifique à **Lazy.nvim**, et complète `:checkhealth` avec des infos centrées sur les *plugins* gérés par **Lazy**.
 
+## Caractéristiques
+### Structure de fichiers
+```text 
+~/.config/nvim
+├── lua
+│   ├── config
+│   │   ├── autocmds.lua
+│   │   ├── keymaps.lua
+│   │   ├── lazy.lua
+│   │   └── options.lua
+│   └── plugins
+│       ├── plugin1.lua
+│       ├── **
+│       └── plugin2.lua
+└── init.lua
+```
+```
+```
+
+Les fichiers sous `config/` seront automatiquement chargés au moment opportun, et ce avant vos propres fihciers. 
+
 ## Commandes spécifiques :
 - `:ShowImage` : Affiche une image dans un terminal externe
