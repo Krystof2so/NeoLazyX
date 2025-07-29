@@ -1,8 +1,21 @@
--- Autocmds are automatically loaded on the VeryLazy event
--- Default autocmds that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/autocmds.lua
---
--- Add any additional autocmds here
--- with `vim.api.nvim_create_autocmd`
---
--- Or remove existing autocmds by their group name (which is prefixed with `lazyvim_` for the defaults)
--- e.g. vim.api.nvim_del_augroup_by_name("lazyvim_wrap_spell")
+-- ##################################################################################################
+-- # FR : -- Les commandes automatiques sont chargées automatiquement lors de l'événement VeryLazy. #
+-- # Commandes automatiques par défaut toujours définies :                                          #
+-- # https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/autocmds.lua                   #
+-- #                                                                                                #
+-- # Ajoutez ici toute commande automatique supplémentaire avec `vim.api.nvim_create_autocmd`       #
+-- #                                                                                                #
+-- # Ou supprimez les autocmds existantes par leur nom de groupe                                    #
+-- # (qui est préfixé par `lazyvim_` pour les valeurs par défaut)                                   #
+-- # par exemple vim.api.nvim_del_augroup_by_name(« lazyvim_wrap_spell »)                           #
+-- # ---------------------------------------------------------------------------------------------- #
+-- # EN : Autocmds are automatically loaded on the VeryLazy event                                   #
+-- # Default autocmds that are always set:                                                          #
+-- # https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/autocmds.lua                   #
+-- #                                                                                                #
+-- # Add any additional autocmds here with `vim.api.nvim_create_autocmd`                            #
+-- #                                                                                                #
+-- # Or remove existing autocmds by their group name                                                #
+-- # (which is prefixed with `lazyvim_` for the defaults)                                           #
+-- # e.g. vim.api.nvim_del_augroup_by_name("lazyvim_wrap_spell")                                    #
+-- ##################################################################################################
