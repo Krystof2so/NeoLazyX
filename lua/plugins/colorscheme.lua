@@ -1,8 +1,9 @@
 return {
+  -- Thème Nord
   {
     "shaunsingh/nord.nvim",
     lazy = false,
-    priority = 1000, -- chargé avant les autres plugins pour appliquer le thème tôt
+    priority = 1000,
     config = function()
       -- Configuration avant d'activer le thème
       vim.g.nord_disable_background = true -- rend l'arrière-plan transparent
@@ -12,5 +13,17 @@ return {
 
       vim.cmd.colorscheme "nord"
     end,
+  },
+
+  -- Thème Kanagawa
+  {
+    "rebelot/kanagawa.nvim",
+    lazy = false,
+    priority = 1000,
+    opts = {
+      dimInactive = true,
+      transparent = false,
+      terminalColors = true,
+    },
   },
 }

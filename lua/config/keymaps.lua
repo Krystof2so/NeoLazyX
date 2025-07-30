@@ -9,3 +9,8 @@
 -- # https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua    #
 -- # Add any additional keymaps here                                                #
 -- ##################################################################################
+
+-- Raccourci pour alterner les thèmes
+vim.keymap.set("n", "<leader>tt", function()
+  require("config.theme_toggle").ToggleTheme()
+end, { desc = "Alterner entre les thèmes" })

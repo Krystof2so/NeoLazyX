@@ -96,6 +96,7 @@ Cela retourne une table contenant une ou plusieurs déclarations de *plugins*.
 ### Amélioration du codage
 - [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
 - [ts-comments.nvim](https://github.com/folke/ts-comments.nvim)
+- [lazydev-nvim](https://github.com/folke/lazydev.nvim)
 
 ## Commandes spécifiques :
 - `:ShowImage` : Affiche une image dans un terminal externe
