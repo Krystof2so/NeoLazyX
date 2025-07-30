@@ -107,6 +107,8 @@ opt.showmode = false -- N'affiche pas le mode (statusline s'en charge)
 opt.pumblend = 0 -- Transparence du menu de complétion
 opt.pumheight = 8 -- Nombre max d'entrées visibles dans le popup
 opt.termguicolors = true -- Active la gestion des couleurs 24-bit (recommandé pour les thèmes modernes)
+opt.spell = true
+opt.spelllang = { "en", "fr" } -- Pour l'anglais et le français
 
 -- Repliement du code (Neovim >= 0.10)
 -- -----------------------------------
