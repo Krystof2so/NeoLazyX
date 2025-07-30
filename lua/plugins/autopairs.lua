@@ -12,7 +12,7 @@ return {
       local Rule = require "nvim-autopairs.rule" -- Import du constructeur 'Rule' pour définir des règles
       local npairs = require "nvim-autopairs"
       npairs.setup {}
-      npairs.add_rule {
+      npairs.add_rules {
         -- Règle qui permet d’ajouter un comportement automatique pour qu’en tapant des triples quotes,
         -- le plugin insère directement la paire fermante (uniquement valable pour Python)
         Rule("'''", "'''", "python"),

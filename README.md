@@ -7,7 +7,7 @@ Pour en savoir plus sur le fonctionnement de LazyVim et son installation, consul
 
 ⚠️ Ce dépôt est destiné à des usages personnels ou expérimentaux, et ne garantit aucune stabilité. Utilisation à vos risques et périls 😄
 
-## Installer la dernière version stable de *Neocvim* (optionnel mais recommandé)
+## Installer la dernière version stable de *Neovim* (optionnel mais recommandé)
 ```bash
 sudo apt install git cmake ninja-build gettext libtool libtool-bin autoconf automake cmake g++ pkg-config unzip curl doxygen build-essential
 git clone https://github.com/neovim/neovim
@@ -95,6 +95,7 @@ Cela retourne une table contenant une ou plusieurs déclarations de *plugins*.
 ## *PLugins* installé
 ### Amélioration du codage
 - [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
+- [ts-comments.nvim](https://github.com/folke/ts-comments.nvim)
 
 ## Commandes spécifiques :
 - `:ShowImage` : Affiche une image dans un terminal externe
