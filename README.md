@@ -92,5 +92,9 @@ return {
 
 Cela retourne une table contenant une ou plusieurs déclarations de *plugins*.
 
+## *PLugins* installé
+### Amélioration du codage
+- [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
+
 ## Commandes spécifiques :
 - `:ShowImage` : Affiche une image dans un terminal externe

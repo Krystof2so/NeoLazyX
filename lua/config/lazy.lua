@@ -29,8 +29,9 @@ require("lazy").setup {
   spec = {
     { "LazyVim/LazyVim", import = "lazyvim.plugins" }, -- charge les plugins de base de LazyVim
     { import = "plugins" }, -- charge les plugins personnalisés (répertoire local `lua/plugins`)
-    { import = "plugins.mason" }, -- import séparé pour la config de mason
-    { import = "plugins.nord" }, -- import du thème Nord
+    -- { import = "plugins.mason" }, -- import séparé pour la config de mason
+    -- { import = "plugins.nord" }, -- import du thème Nord
+    --    { import = "plugins.autopairs" },
   },
   defaults = {
     -- Par défaut, seuls les plugins LazyVim seront chargés de manière différée.
