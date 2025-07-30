@@ -98,5 +98,9 @@ Cela retourne une table contenant une ou plusieurs déclarations de *plugins*.
 - [ts-comments.nvim](https://github.com/folke/ts-comments.nvim)
 - [lazydev-nvim](https://github.com/folke/lazydev.nvim)
 
+### *ColorScheme*
+- [nord.nvim](https://github.com/shaunsingh/nord.nvim)
+- [kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim)
+
 ## Commandes spécifiques :
 - `:ShowImage` : Affiche une image dans un terminal externe
