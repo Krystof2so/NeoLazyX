@@ -6,3 +6,7 @@
 
 ## Navigation
 - `<leader + espace>` : Navigation entre les fichiers du répertoire courant
+
+## Interface (UI)
+- `<leader + tt>` : Changement de thème (ordre : "nord", "kanagawa-lotus", "kanagawa-dragon")
+
