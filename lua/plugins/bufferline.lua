@@ -8,6 +8,21 @@ return {
     event = "VeryLazy",
     dependencies = { "nvim-tree/nvim-web-devicons" },
     config = function()
+      local is_nord = vim.g.colors_name == "nord"
+      local highlights = nil
+      if is_nord then
+        highlights = {
+          fill = { bg = "#2E3440" },
+          background = { fg = "#4C566A", bg = "#2E3440" },
+          buffer_selected = { fg = "#ECEFF4", bg = "#3B4252", bold = true },
+          buffer_visible = { fg = "#D8DEE9", bg = "#2E3440" },
+          modified = { fg = "#D08770", bg = "#2E3440" },
+          modified_selected = { fg = "#D08770", bg = "#3B4252" },
+          separator = { fg = "#3B4252", bg = "#2E3440" },
+          separator_selected = { fg = "#3B4252", bg = "#3B4252" },
+          close_button_selected = { fg = "#D08770", bg = "#3B4252" },
+        }
+      end
       require("bufferline").setup {
         options = {
           themable = true,
@@ -23,6 +38,7 @@ return {
           diagnostics_update_on_insert = true, -- Mise à jour des diagnostics en mode insert
           indicator = { style = "none" }, -- Supprime l’indicateur de buffer actif
         },
+        highlights = highlights,
       }
     end,
   },

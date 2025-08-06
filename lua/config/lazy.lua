@@ -45,7 +45,6 @@ require("lazy").setup {
     version = false, -- toujours utiliser la dernière version git commit
     -- version = "*", -- essayez d'installer la dernière version stable pour les plugins qui prennent en charge semver
   },
-  install = { colorscheme = { "nord" } }, -- Installe le thème Nord juste après l'installation
   checker = {
     enabled = true, -- Vérifiez régulièrement les mises à jour des plugins.
     notify = true, -- Notifier lors de la mise à jour
