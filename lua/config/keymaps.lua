@@ -12,5 +12,5 @@
 
 -- Raccourci pour alterner les thèmes
 vim.keymap.set("n", "<leader>tt", function()
-  require("config.theme_toggle").ToggleTheme()
-end, { desc = "Alterner entre les thèmes" })
+  require("user.theme_toggle").toggle()
+end, { desc = "Basculer entre Nord/Everforest" })

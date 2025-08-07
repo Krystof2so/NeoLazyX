@@ -4,7 +4,8 @@ require "user.commands"
 
 vim.g.python3_host_prog = "/usr/bin/python3"
 
--- Charger le thème nord personnalisé APRÈS LazyVim
-vim.schedule(function()
-  require("themes.nord_custom").load()
-end)
+local theme_toggle = require "user.theme_toggle"
+theme_toggle.setup()
+
+-- Bind pour toggle thème (exemple)
+vim.keymap.set("n", "<leader>tt", theme_toggle.toggle, { desc = "Toggle Theme" })
