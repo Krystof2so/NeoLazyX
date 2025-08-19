@@ -102,5 +102,8 @@ Cela retourne une table contenant une ou plusieurs déclarations de *plugins*.
 - [nord.nvim](https://github.com/shaunsingh/nord.nvim)
 - [kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim)
 
+### Langages
+- [Vimtex](https://github.com/lervag/vimtex)
+
 ## Commandes spécifiques :
 - `:ShowImage` : Affiche une image dans un terminal externe
