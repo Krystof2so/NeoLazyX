@@ -113,7 +113,7 @@ opt.spelllang = { "en", "fr" } -- Pour l'anglais et le français
 -- Repliement du code (Neovim >= 0.10)
 -- -----------------------------------
 opt.foldlevel = 99 -- Tout est déplié à l'ouverture
-opt.foldexpr = "v:lua.require'lazyvim.util'.ui.foldexpr()" -- Définit la logique de repli
+opt.foldexpr = "v:lua.LazyVim.treesitter.foldexpr()"
 opt.foldmethod = "expr" -- Repli calculé dynamiquement
 opt.foldtext = ">" -- Affichage pour le texte replié
 
